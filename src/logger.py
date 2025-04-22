@@ -22,3 +22,7 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/main
