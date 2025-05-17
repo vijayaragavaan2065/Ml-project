@@ -173,3 +173,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# macOS system files
+.DS_Store
+
+# CatBoost training metadata
+catboost_info/
+
+# Model artifacts
+artifacts/
+
