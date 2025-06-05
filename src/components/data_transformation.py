@@ -7,13 +7,12 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
-from src.utils import save_object
-
 
 from src.exception import CustomException
 from src.logger import logging
 import os
 
+from src.utils import save_object
 
 @dataclass
 class DataTransformationConfig:
